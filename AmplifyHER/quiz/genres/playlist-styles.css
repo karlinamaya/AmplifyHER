@@ -1,0 +1,94 @@
+.answer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-top: 20px;
+  }
+  
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #web-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  
+  .title {
+    color:white;
+  }
+  
+  #playlist-title {
+    text-align: center;
+    color:white;
+  }
+  .generatePlaylistBtn {
+    height: 200px;
+    background-color: pink;
+    text-align: center;
+  }
+
+  .answer-button {
+    width: 50%;
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.answer-button:hover {
+    background-color: lightpink;
+}
+  
+  #playlist-container {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: black;
+    margin: 100px auto; 
+    padding: 40px; 
+    border-radius: 15px;
+    background-color: #9579e8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    max-width: 600px; 
+    height: vh; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .container, #playlist-body {
+    background: rgb(72,1,140);
+    background: linear-gradient(153deg, rgba(72,1,140,1) 0%, rgba(76,11,138,1) 25%, rgba(96,33,157,1) 43%, rgba(120,61,200,1) 58%, rgba(144,88,221,1) 80%, rgba(176,99,255,1) 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-size: 20px; 
+    color: lightpink; 
+    text-align: center;
+  }
+  
+  p {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+    color: pink;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    font-weight: 500;
+  }
