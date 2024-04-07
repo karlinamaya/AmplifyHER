@@ -25,10 +25,12 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
   font-weight: 515;
+  color: white;
+  background-color: #6d3aa0;
 }
 
 .answer-button:hover, #generatePlaylistBtn:hover{
-  background-color: #a67bf0;
+  background-color: #9359ce;
 }
 
 .button-container {
@@ -95,4 +97,5 @@ p {
   color: white;
   text-align: center;
 }
+
 
